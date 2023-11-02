@@ -20,6 +20,14 @@ Pkg.instantiate()
 ```julia
 Pkg.add("https://github.com/NREL-Sienna/Sienna2PRAS.git")
 ```
+
+If the environment setup above fails, you can use 
+
+```julia
+] activate . 
+] add https://github.com/NREL-Sienna/Sienna2PRAS.git,PowerSystemCaseBuilder@1.1.0,PRAS,CSV,DataFrames,PowerSystems,Random,Statistics
+```
+
 **Training Exercises**
 
 Here's a structured sequence for your training:
