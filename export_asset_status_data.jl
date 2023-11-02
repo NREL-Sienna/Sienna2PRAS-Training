@@ -11,6 +11,9 @@ rts_da_pras_sys = PRAS.SystemModel(joinpath("Data","rts.pras"));
 
 # Run Monte-Carlo Analysis for "num_runs" samples and export "num_scenarios" of scenarios sorted based on 
 # sample unserved energy in CSV format
+if (~isdir(joinpath("Data","Asset_Status_Export")))
+    mkpath(joinpath("Data","Asset_Status_Export"))
+end
 
 generate_csv_outage_profile(rts_da_pras_sys,
                         location = joinpath("Data","Asset_Status_Export"),
