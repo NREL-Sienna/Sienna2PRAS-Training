@@ -1,0 +1,14 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+PRAS = "05348d26-1c52-11e9-35e3-9d51842d34b9"
+PowerSystemCaseBuilder = "f00506e0-b84f-492a-93c2-c0a9afc4364e"
+PowerSystems = "bcd98974-b02a-5e2f-9ee0-a103f5c450dd"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SIIP2PRAS = "4b496c86-8d00-441d-b504-079c710e0aa7"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[compat]
+PowerSystemCaseBuilder = "1.1.0"
+PowerSystems = "2"
+julia = "^1.6"
